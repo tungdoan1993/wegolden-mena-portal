@@ -1,0 +1,54 @@
+/* ==========================================================================
+   Base — reset, typography, accessibility helpers.
+   Uses logical properties (inline/block) so LTR and RTL share one stylesheet.
+   ========================================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--ink-900);
+  overflow-x: hidden;
+}
+:lang(ar) body, :lang(fa) body { line-height: 1.85; }
+
+img, svg { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+ul, ol { padding: 0; list-style: none; }
+button, input, select, textarea { font: inherit; color: inherit; }
+
+h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
+h1, h2 { font-family: var(--font-display); }
+h1 em, h2 em { font-style: normal; color: var(--yellow-300); }
+h3 { font-size: var(--fs-lg); }
+
+:focus-visible { outline: none; box-shadow: var(--ring); border-radius: var(--radius-sm); }
+
+.icon {
+  inline-size: 1.15em; block-size: 1.15em; flex: none;
+  fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+}
+.icon-play { fill: currentColor; stroke: none; }
+[dir='rtl'] .icon-arrow { transform: scaleX(-1); }
+
+.sr-only {
+  position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+.skip-link {
+  position: absolute; inset-inline-start: var(--space-4); inset-block-start: -100px; z-index: 100;
+  background: var(--yellow-500); color: var(--text-on-gold); padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm); font-weight: 700;
+}
+.skip-link:focus { inset-block-start: var(--space-4); }
+
+.center { text-align: center; }
+.center .btn { margin-block-start: var(--space-6); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

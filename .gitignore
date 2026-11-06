@@ -1,0 +1,6 @@
+dist/
+node_modules/
+_brand/
+*.xlsx
+.DS_Store
+Thumbs.db

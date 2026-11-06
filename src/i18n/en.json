@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "label": "English",
+    "short": "EN",
+    "siteName": "WeGolden MENA",
+    "description": "WeGolden in the Middle East and North Africa — trade forex, gold, indices, crypto and US stocks on MT5, with swap-free accounts and a partner program for IBs."
+  },
+  "common": {
+    "readMore": "Read more",
+    "comingSoon": "Coming soon",
+    "language": "Language",
+    "menu": "Menu",
+    "skip": "Skip to content",
+    "backToTop": "Back to top"
+  },
+  "topbar": {
+    "text": "Swap-free trading for MENA clients — starting from a $1,000 deposit.",
+    "cta": "See terms"
+  },
+  "utility": {
+    "region": "MENA regional portal",
+    "telegram": "Telegram",
+    "email": "Email us"
+  },
+  "nav": {
+    "index": "Home",
+    "guides": "Guides",
+    "promotions": "Promotions",
+    "partners": "Partners (IB)",
+    "about": "Licences & offices",
+    "activities": "Updates",
+    "login": "Client area",
+    "openAccount": "Open account",
+    "brochure": "Brochure"
+  },
+  "hero": {
+    "eyebrow": "WeGolden · Middle East & North Africa",
+    "title": "Trade gold and forex with a broker that speaks your <em>language</em>",
+    "lead": "MT5 trading on 28+ forex pairs, gold, indices, energies, crypto and US stocks — with swap-free accounts, daily partner withdrawals and a team based in the region.",
+    "ctaPrimary": "Open an account",
+    "ctaSecondary": "Become a partner",
+    "stats": [
+      {
+        "value": "1:1000",
+        "label": "Floating leverage, maximum*"
+      },
+      {
+        "value": "MT5",
+        "label": "Desktop, web & mobile"
+      },
+      {
+        "value": "Swap-free",
+        "label": "Up to lifetime on eligible accounts"
+      },
+      {
+        "value": "Daily",
+        "label": "IB commission withdrawals"
+      }
+    ],
+    "footnote": "*Leverage depends on account equity, instrument and trading hours. See Guides.",
+    "mascotAlt": "WeGolden mascot — a black cat wearing a white kandura and ghutra",
+    "bubble": "Marhaba! Ready to trade?"
+  },
+  "intro": {
+    "eyebrow": "Who we are",
+    "title": "What is WeGolden?",
+    "body": [
+      "WeGolden is the forex and CFD broker of the WeCopy Fintech group, alongside the copy-trading platform WeCopyTrade and the prop firm WeMasterTrade. Clients trade on MetaTrader 5 with retail and professional account types.",
+      "This portal is WeGolden's home in the Middle East and North Africa: guides in English, Arabic and Farsi, current promotions, and everything partners need to grow with us."
+    ],
+    "videoLabel": "WeGolden in 60 seconds",
+    "videoSoon": "Video coming soon",
+    "cta": "Our licences"
+  },
+  "trust": {
+    "eyebrow": "Why clients choose us",
+    "title": "Built on licences, a proven platform and clear rules",
+    "items": [
+      {
+        "icon": "shield",
+        "title": "FSCA authorised FSP",
+        "body": "An authorised financial services provider in South Africa, FSP No. 53890, under the FAIS Act."
+      },
+      {
+        "icon": "license",
+        "title": "MISA brokerage licence",
+        "body": "Licensed by the Mwali International Services Authority (Comoros), licence BFX2024121."
+      },
+      {
+        "icon": "bank",
+        "title": "FinCEN MSB registration",
+        "body": "Registered as a money services business with FinCEN (USA), No. 31000318885103."
+      },
+      {
+        "icon": "platform",
+        "title": "MetaTrader 5",
+        "body": "Trade on MT5 on Windows, Mac, web, iOS and Android — one login for every market."
+      },
+      {
+        "icon": "moon",
+        "title": "Swap-free accounts",
+        "body": "No overnight swaps for eligible verified clients, from 1 month up to lifetime depending on deposit."
+      },
+      {
+        "icon": "clock",
+        "title": "Daily partner payouts",
+        "body": "IB commissions are calculated automatically per lot and can be withdrawn every day."
+      }
+    ]
+  },
+  "accounts": {
+    "eyebrow": "Accounts",
+    "title": "Pick the account that fits how you trade",
+    "sub": "Every account trades on MT5 with the same instruments.",
+    "items": [
+      {
+        "name": "Cent",
+        "tag": "Start small",
+        "points": [
+          "Trade in cents to test a strategy",
+          "No commission",
+          "A low-risk first live account"
+        ]
+      },
+      {
+        "name": "Standard Low Spread",
+        "tag": "Most popular",
+        "featured": true,
+        "points": [
+          "No commission",
+          "Spreads from 10 pts on USDCHF",
+          "Gold from 22 pts"
+        ]
+      },
+      {
+        "name": "Standard High Spread",
+        "tag": "Simple pricing",
+        "points": [
+          "No commission",
+          "Spreads from 19 pts on USDCHF",
+          "Gold from 33 pts"
+        ]
+      },
+      {
+        "name": "ECN",
+        "tag": "Active traders",
+        "points": [
+          "Raw market spreads",
+          "Fixed commission per lot",
+          "Low- and high-commission plans"
+        ]
+      }
+    ],
+    "note": "Spreads shown are minimums and vary with market conditions. Live conditions are shown in the client area.",
+    "cta": "Compare accounts"
+  },
+  "markets": {
+    "eyebrow": "Markets",
+    "title": "One account, seven markets",
+    "items": [
+      {
+        "code": "FX",
+        "name": "Forex",
+        "desc": "28+ major, minor and cross pairs"
+      },
+      {
+        "code": "XAU",
+        "name": "Gold",
+        "desc": "XAUUSD — the region's favourite"
+      },
+      {
+        "code": "XAG",
+        "name": "Silver",
+        "desc": "XAGUSD"
+      },
+      {
+        "code": "IDX",
+        "name": "Indices",
+        "desc": "Major global stock indices"
+      },
+      {
+        "code": "OIL",
+        "name": "Energies",
+        "desc": "WTI, Brent and more"
+      },
+      {
+        "code": "BTC",
+        "name": "Crypto",
+        "desc": "BTC, ETH, SOL and more"
+      },
+      {
+        "code": "US",
+        "name": "US stocks",
+        "desc": "Apple, Amazon, AMD and more"
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why WeGolden",
+    "title": "Made for traders in the region",
+    "items": [
+      {
+        "icon": "chat",
+        "title": "Arabic & Farsi support",
+        "body": "A regional team that answers in your language."
+      },
+      {
+        "icon": "coins",
+        "title": "Savings packages",
+        "body": "Fixed-term packages from 30 to 360 days for idle balances."
+      },
+      {
+        "icon": "book",
+        "title": "Learn as you trade",
+        "body": "Step-by-step guides and market notes on Telegram."
+      },
+      {
+        "icon": "layers",
+        "title": "Part of a wider group",
+        "body": "Copy trading and funded-trader programs in the same group."
+      }
+    ]
+  },
+  "ib": {
+    "eyebrow": "Partners",
+    "title": "Why become a WeGolden IB",
+    "sub": "Refer traders, build a network, and earn on every lot they trade.",
+    "items": [
+      {
+        "value": "70%",
+        "label": "of the markup spread shared with you"
+      },
+      {
+        "value": "10% + 1%",
+        "label": "from your Sub-IBs and their Sub-IBs"
+      },
+      {
+        "value": "$10,000",
+        "label": "top monthly Master IB reward"
+      },
+      {
+        "value": "Daily",
+        "label": "commission withdrawals"
+      }
+    ],
+    "cta": "See the partner program",
+    "note": "Partner earnings are governed by the WeGolden IB Agreement and official program terms."
+  },
+  "updates": {
+    "eyebrow": "News & updates",
+    "title": "What's happening at WeGolden",
+    "items": [
+      {
+        "tag": "Coming soon",
+        "icon": "trophy",
+        "title": "WeGolden Partners League — Season 1",
+        "body": "A four-month league for IB partners with an $8,100 prize pool. Season dates will be announced."
+      },
+      {
+        "tag": "Accounts",
+        "icon": "moon",
+        "title": "Swap-free trading, up to lifetime",
+        "body": "Deposit $30,000 or more to stay swap-free permanently. Shorter terms start from $1,000."
+      },
+      {
+        "tag": "Savings",
+        "icon": "coins",
+        "title": "Excellence savings packages",
+        "body": "Five fixed-term packages from 30 to 360 days, with a minimum of $5,000."
+      }
+    ],
+    "more": "All updates"
+  },
+  "form": {
+    "eyebrow": "Get started",
+    "title": "Become an IB with WeGolden",
+    "sub": "Leave your details and a partner manager will contact you within 2 business days.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "country": "Country",
+    "type": "I am",
+    "typeOptions": [
+      "A trader",
+      "An IB or community leader",
+      "An educator or KOL"
+    ],
+    "message": "Tell us about your audience (optional)",
+    "consent": "I agree to be contacted by WeGolden about partnership.",
+    "submit": "Send request",
+    "success": "Thank you — a partner manager will be in touch shortly.",
+    "error": "Something went wrong. Please reach us on Telegram."
+  },
+  "footer": {
+    "tagline": "The WeGolden portal for the Middle East and North Africa.",
+    "quick": "Quick links",
+    "contact": "Contact",
+    "addressLabel": "Registered office",
+    "address": "Unit 8, 29 First Avenue East, Parktown North, Johannesburg, 2193, South Africa",
+    "follow": "Follow us",
+    "risk": "Risk warning: Trading forex and CFDs on margin carries a high level of risk and may not be suitable for all investors. Leverage can work against you, and you may lose all of your invested capital. Past performance is not a reliable indicator of future results. Services are not offered in restricted jurisdictions.",
+    "rights": "All rights reserved."
+  },
+  "pages": {
+    "guides": {
+      "title": "Guides",
+      "lead": "Everything you need to go from sign-up to your first trade.",
+      "stepsTitle": "Open your account in 5 steps",
+      "steps": [
+        {
+          "title": "Register",
+          "body": "Create your profile in the client area with your email and phone number."
+        },
+        {
+          "title": "Verify",
+          "body": "Upload your ID and proof of address to complete verification."
+        },
+        {
+          "title": "Deposit",
+          "body": "Fund your account with a payment method available in your country."
+        },
+        {
+          "title": "Install MT5",
+          "body": "Download MetaTrader 5 and log in to the WeGolden-Live server."
+        },
+        {
+          "title": "Trade",
+          "body": "Start with small sizes and use a stop-loss on every position."
+        }
+      ],
+      "accountsTitle": "Accounts at a glance",
+      "accountsCols": [
+        "",
+        "Cent",
+        "Standard Low Spread",
+        "Standard High Spread",
+        "ECN"
+      ],
+      "accountsRows": [
+        [
+          "Commission",
+          "None",
+          "None",
+          "None",
+          "Per lot"
+        ],
+        [
+          "Forex spread",
+          "Floating",
+          "From 10 pts (USDCHF)",
+          "From 19 pts (USDCHF)",
+          "Raw"
+        ],
+        [
+          "Gold spread",
+          "Floating",
+          "From 22 pts",
+          "From 33 pts",
+          "Raw"
+        ],
+        [
+          "Platform",
+          "MT5",
+          "MT5",
+          "MT5",
+          "MT5"
+        ]
+      ],
+      "leverageTitle": "Floating leverage",
+      "leverageLead": "Leverage on forex and gold adjusts automatically to your account equity.",
+      "leverageCols": [
+        "Account equity",
+        "Forex & gold"
+      ],
+      "leverageRows": [
+        [
+          "$0 – $1,000",
+          "1:1000"
+        ],
+        [
+          "$1,000 – $5,000",
+          "1:500"
+        ],
+        [
+          "$5,000 – $10,000",
+          "1:200"
+        ],
+        [
+          "$10,000 – $50,000",
+          "1:100"
+        ],
+        [
+          "$50,000 and above",
+          "1:30"
+        ]
+      ],
+      "leverageNotes": [
+        "Silver, indices and energies: 1:100. Crypto and shares: 1:10.",
+        "Forex and gold drop to 1:30 from 23:00 to 02:00, from weekend close to reopen, and 15 minutes before and after major news."
+      ],
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "Which platform do I use?",
+          "a": "MetaTrader 5. Use the WeGolden-Live server for real accounts and WeGolden-Demo to practise."
+        },
+        {
+          "q": "Is there a demo account?",
+          "a": "Yes. Open a WeGolden-Demo account on MT5 to practise without risk."
+        },
+        {
+          "q": "Can I open a swap-free account?",
+          "a": "Yes, verified clients can apply. The swap-free period depends on your qualifying deposit — see Promotions."
+        },
+        {
+          "q": "Who do I contact for help?",
+          "a": "Our regional support team on Telegram or by email, in English, Arabic and Farsi."
+        }
+      ]
+    },
+    "promotions": {
+      "title": "Promotions",
+      "lead": "Current programs for WeGolden clients and partners.",
+      "swapTitle": "Swap-free accounts",
+      "swapLead": "Hold positions overnight without swap charges. The bigger your qualifying deposit, the longer it lasts.",
+      "swapCols": [
+        "Qualifying deposit",
+        "Swap-free period"
+      ],
+      "swapRows": [
+        [
+          "$1,000",
+          "1 month"
+        ],
+        [
+          "$2,000",
+          "3 months"
+        ],
+        [
+          "$5,000",
+          "6 months"
+        ],
+        [
+          "$10,000",
+          "1 year"
+        ],
+        [
+          "$30,000",
+          "Lifetime"
+        ]
+      ],
+      "swapNotes": [
+        "Full verification is required. Each deposit counted toward a tier must be at least $300.",
+        "Contact support within 48 hours of your qualifying deposit to activate.",
+        "Stock CFDs still carry swaps. A 5-day holding limit applies to gold, JPY crosses, WTI and Brent."
+      ],
+      "savingsTitle": "Excellence savings packages",
+      "savingsLead": "Put an idle balance to work for a fixed term. Minimum participation: $5,000.",
+      "savingsCols": [
+        "Package",
+        "Term",
+        "Rate (full term)",
+        "Profit on $5,000"
+      ],
+      "savingsRows": [
+        [
+          "Excellence Short-Term",
+          "30 days",
+          "0.2%",
+          "$10"
+        ],
+        [
+          "Excellence Flex",
+          "60 days",
+          "0.43%",
+          "$21.50"
+        ],
+        [
+          "Excellence Growth",
+          "120 days",
+          "0.93%",
+          "$46.50"
+        ],
+        [
+          "Excellence Advance",
+          "180 days",
+          "1.5%",
+          "$75"
+        ],
+        [
+          "Excellence Premier",
+          "360 days",
+          "3%",
+          "$150"
+        ]
+      ],
+      "savingsNote": "Withdrawing before the end of the term carries a penalty. Full terms are in the client area.",
+      "leagueTitle": "Partners League — Season 1",
+      "leagueBody": "A four-month competition for IB partners with an $8,100 prize pool. Season dates and rules will be announced on our Telegram channel."
+    },
+    "partners": {
+      "title": "Partner program",
+      "lead": "Earn per-lot rebates, multi-level overrides and monthly rewards for growing your network.",
+      "rebateTitle": "Per-lot rebates",
+      "rebateLead": "Paid automatically on every lot your clients trade, withdrawable daily.",
+      "rebateCols": [
+        "Client account",
+        "Your rebate per lot"
+      ],
+      "rebateRows": [
+        [
+          "Standard High Spread",
+          "$16"
+        ],
+        [
+          "Standard Low Spread",
+          "$8"
+        ],
+        [
+          "ECN",
+          "Ask your partner manager"
+        ]
+      ],
+      "levelsTitle": "Multi-level earnings",
+      "levels": [
+        {
+          "value": "10%",
+          "label": "of your direct Sub-IBs' income"
+        },
+        {
+          "value": "1%",
+          "label": "of your Sub-Sub-IBs' income"
+        }
+      ],
+      "mibTitle": "Master IB monthly reward",
+      "mibLead": "Based on your network's monthly net deposit (deposits − withdrawals − MIB commission).",
+      "mibCols": [
+        "Monthly net deposit",
+        "Reward"
+      ],
+      "mibRows": [
+        [
+          "$20,000",
+          "$500"
+        ],
+        [
+          "$30,000",
+          "$1,000"
+        ],
+        [
+          "$50,000",
+          "$2,500"
+        ],
+        [
+          "$75,000",
+          "$3,500"
+        ],
+        [
+          "$100,000",
+          "$5,000"
+        ],
+        [
+          "$125,000",
+          "$6,250"
+        ],
+        [
+          "$150,000",
+          "$7,500"
+        ],
+        [
+          "$175,000",
+          "$8,750"
+        ],
+        [
+          "$200,000",
+          "$10,000"
+        ],
+        [
+          "Above $200,000",
+          "Negotiated"
+        ]
+      ],
+      "mibNote": "Between $5,000 and $19,999: 2% of net deposit. One reward level per calendar month.",
+      "condTitle": "Reward withdrawal condition",
+      "condBody": "To withdraw IB rewards, refer at least 2 new clients who are fully verified, deposit at least $500 and trade at least 1 standard lot each. Clients transferred from other IBs do not count.",
+      "legal": "This page summarises the program. The WeGolden IB Agreement and official program terms prevail.",
+      "brochureCta": "View the partner brochure"
+    },
+    "about": {
+      "title": "Licences & offices",
+      "lead": "Who we are, who regulates us, and where to find us.",
+      "licTitle": "Licences and registrations",
+      "licCols": [
+        "Authority",
+        "Jurisdiction",
+        "Reference"
+      ],
+      "licRows": [
+        [
+          "FSCA — Financial Sector Conduct Authority",
+          "South Africa",
+          "FSP No. 53890"
+        ],
+        [
+          "MISA — Mwali International Services Authority",
+          "Comoros",
+          "Licence BFX2024121"
+        ],
+        [
+          "FinCEN — Money Services Business",
+          "United States",
+          "MSB No. 31000318885103"
+        ]
+      ],
+      "licNote": "The FinCEN registration covers money services; it is not a trading licence.",
+      "groupTitle": "The WeCopy Fintech group",
+      "group": [
+        {
+          "title": "WeGolden",
+          "body": "Forex & CFD broker on MT5"
+        },
+        {
+          "title": "WeCopyTrade",
+          "body": "Copy-trading platform"
+        },
+        {
+          "title": "WeMasterTrade",
+          "body": "Prop firm with funded accounts"
+        }
+      ],
+      "officesTitle": "Where to find us",
+      "offices": [
+        {
+          "title": "Dubai, UAE",
+          "body": "MENA regional hub — strategy and partnerships"
+        },
+        {
+          "title": "Cairo, Egypt",
+          "body": "Sales and client support"
+        },
+        {
+          "title": "Johannesburg, South Africa",
+          "body": "Registered office"
+        }
+      ]
+    },
+    "activities": {
+      "title": "Updates",
+      "lead": "News, programs and events from WeGolden MENA.",
+      "tgTitle": "Join us on Telegram",
+      "tgBody": "Daily market notes, program news and direct support from the regional team.",
+      "tgCta": "Open Telegram"
+    },
+    "brochure": {
+      "title": "Partner brochure",
+      "lead": "Flip through the WeGolden partner catalogue — rebates, rewards, conditions and how to join.",
+      "open": "Open full screen",
+      "editionNote": "",
+      "hint": "Use the arrows or swipe to turn pages."
+    }
+  }
+}
