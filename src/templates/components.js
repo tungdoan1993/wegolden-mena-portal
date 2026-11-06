@@ -153,3 +153,36 @@ export function leadForm(ctx) {
       </div>
     </section>`;
 }
+
+/** Promotions banner shown on every page (except Promotions and Partner Area). Copy: i18n → promos. */
+export function promoStrip(ctx) {
+  const p = ctx.t.promos;
+  return `
+    <section class="section section--promos" aria-labelledby="promo-strip-title">
+      <div class="container">
+        <div class="promo-strip__head">
+          <div>
+            <p class="eyebrow">${p.eyebrow}</p>
+            <h2 class="section-title" id="promo-strip-title">${p.title}</h2>
+            <p class="section-sub">${p.sub}</p>
+          </div>
+          ${button(p.more, ctx.href('promotions'), 'outline', { arrow: true })}
+        </div>
+        <div class="grid grid-3">
+          ${p.items
+            .map(
+              (i) => `
+            <article class="card promo-card">
+              <div class="promo-card__top"><span class="tag">${i.tag}</span>${icon(i.icon)}</div>
+              <p class="promo-card__value" dir="ltr">${i.value}</p>
+              <h3 dir="ltr">${i.title}</h3>
+              <p>${i.body}</p>
+              <a class="promo-card__link" href="${ctx.href('promotions')}#${i.id}">${p.terms}${icon('arrow')}</a>
+            </article>`,
+            )
+            .join('')}
+        </div>
+        <p class="footnote">${p.note}</p>
+      </div>
+    </section>`;
+}

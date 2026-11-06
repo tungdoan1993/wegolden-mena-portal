@@ -158,3 +158,21 @@
 .ib-definition .ib-formula { font-size: var(--fs-sm); padding: var(--space-2) var(--space-4); background: rgb(255 196 0 / 0.12); color: var(--yellow-300) !important; border: 1px solid rgb(255 196 0 / 0.35); }
 .ib-definition .note-list li { font-size: var(--fs-xs); }
 .ib-definition .ib-calc li { font-size: var(--fs-xs); padding: var(--space-2) var(--space-3); }
+
+/* ---------- Promotions banner (every page) & detail cards ---------- */
+.section--promos { background: radial-gradient(60% 80% at 100% 0%, rgb(255 196 0 / 0.12), transparent 70%), var(--ink-950); border-block-start: 1px solid var(--ink-700); }
+.promo-strip__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-6); margin-block-end: var(--space-8); }
+.promo-strip__head .section-sub { margin-block-start: var(--space-2); font-size: var(--fs-md); }
+.promo-card { display: grid; align-content: start; gap: var(--space-2); }
+.promo-card:hover { border-color: var(--yellow-700); transform: translateY(-2px); }
+.promo-card__top { display: flex; justify-content: space-between; align-items: center; color: var(--yellow-300); margin-block-end: var(--space-2); }
+.promo-card__top .icon { inline-size: 24px; block-size: 24px; }
+.promo-card__value { font-family: var(--font-latin); font-weight: 800; font-size: 2.4rem; line-height: 1; color: var(--yellow-500); }
+.promo-card h3 { font-family: var(--font-latin); }
+.promo-card__link { display: inline-flex; align-items: center; gap: 6px; margin-block-start: var(--space-2); color: var(--yellow-300); font-weight: 600; font-size: var(--fs-sm); }
+.promo-card__link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.promo-detail__card { display: grid; align-content: start; gap: var(--space-3); scroll-margin-block-start: 110px; }
+.promo-detail__card h2 { font-size: 1.5rem; }
+.promo-detail__card .note-list { margin-block: var(--space-2); }
+.promo-detail__card .btn { justify-self: start; }
+#freeswap, #savings, #league { scroll-margin-block-start: 110px; }

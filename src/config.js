@@ -16,6 +16,13 @@ export const config = {
     telegram: '#', // TODO: WeGolden MENA Telegram channel
   },
 
+  // Official promotion terms (wegolden.com). Promotion copy lives in i18n → promos / pages.promotions.
+  promoTerms: {
+    goldflash: 'https://wegolden.com/goldflash',
+    bonus: 'https://wegolden.com/20-tradable-bonus/',
+    freeswap: 'https://wegolden.com/freeswap/',
+  },
+
   contact: {
     support: 'support@wegolden.com',
     partners: 'partners@wegolden.com',

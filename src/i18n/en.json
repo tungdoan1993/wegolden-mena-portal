@@ -16,8 +16,8 @@
     "backToTop": "Back to top"
   },
   "topbar": {
-    "text": "Swap-free trading for MENA clients — starting from a $1,000 deposit.",
-    "cta": "See terms"
+    "text": "2026 promotions: $300 GoldFlash bonus · up to 20% deposit bonus · swap-free trading.",
+    "cta": "See promotions"
   },
   "utility": {
     "region": "MENA regional portal",
@@ -261,10 +261,10 @@
         "body": "A four-month league for IB partners with an $8,100 prize pool. Season dates will be announced."
       },
       {
-        "tag": "Accounts",
-        "icon": "moon",
-        "title": "Swap-free trading, up to lifetime",
-        "body": "Deposit $30,000 or more to stay swap-free permanently. Shorter terms start from $1,000."
+        "tag": "New",
+        "icon": "book",
+        "title": "Partner brochure and Partner Area online",
+        "body": "Flip through the partner catalogue, and log in to the Partner Area for the detailed IB scheme."
       },
       {
         "tag": "Savings",
@@ -454,9 +454,10 @@
         ]
       ],
       "swapNotes": [
-        "Full verification is required. Each deposit counted toward a tier must be at least $300.",
-        "Contact support within 48 hours of your qualifying deposit to activate.",
-        "Stock CFDs still carry swaps. A 5-day holding limit applies to gold, JPY crosses, WTI and Brent."
+        "MT5 Standard and ECN accounts; full verification required. Each deposit counted toward a tier must be at least $300.",
+        "Contact Support within 48 hours of your qualifying deposit to activate. Positions opened before the switch keep standard swaps.",
+        "Covers forex, indices, metals and energies. Stock CFDs still carry swaps.",
+        "Positions on gold, silver, USDCAD, JPY crosses, WTI, Brent, minor and exotic pairs should not be held longer than 5 days."
       ],
       "savingsTitle": "Excellence savings packages",
       "savingsLead": "Put an idle balance to work for a fixed term. Minimum participation: $5,000.",
@@ -500,7 +501,26 @@
       ],
       "savingsNote": "Withdrawing before the end of the term carries a penalty. Full terms are in the client area.",
       "leagueTitle": "Partners League — Season 1",
-      "leagueBody": "A four-month competition for IB partners with an $8,100 prize pool. Season dates and rules will be announced on our Telegram channel."
+      "leagueBody": "A four-month competition for IB partners with an $8,100 prize pool. Season dates and rules will be announced on our Telegram channel.",
+      "goldTitle": "GoldFlash — $300 for gold traders",
+      "goldLead": "A cash bonus for depositing and trading gold. Enrolment is automatic.",
+      "goldPoints": [
+        "Make a single deposit of $1,000 or more during 2026.",
+        "Trade 18 XAUUSD lots (Standard) or 30 lots (ECN) within 30 days.",
+        "Receive $300 credited to your balance as real funds — tradable and withdrawable once credited.",
+        "Scales with your deposit: $2,000 → 36 lots (Standard) → $600, and so on per $1,000.",
+        "Copy trades, hedged positions and very short trades do not count toward the volume."
+      ],
+      "bonusTitle": "20% Tradable Bonus",
+      "bonusLead": "Extra margin on your deposit to trade bigger positions.",
+      "bonusPoints": [
+        "Up to 20% on qualifying deposits, capped at $2,000 per client.",
+        "MT5 Standard and ECN accounts; full verification required.",
+        "Request activation from Support within 48 hours of your deposit.",
+        "Bonus funds become withdrawable after meeting the trading requirements in the full terms.",
+        "Use the bonus within 3 months of crediting."
+      ],
+      "termsCta": "Read the full terms on wegolden.com"
     },
     "partners": {
       "title": "Partner program",
@@ -676,5 +696,39 @@
       "logout": "Sign out",
       "print": "Print / save PDF"
     }
+  },
+  "promos": {
+    "eyebrow": "Promotions 2026",
+    "title": "Current promotions for traders",
+    "sub": "Valid 1 January – 31 December 2026 on MT5 Standard and ECN accounts.",
+    "more": "All promotions",
+    "terms": "Full terms",
+    "note": "Terms and conditions apply. Promotions are not available in restricted countries. WeGolden may amend or end a promotion at any time.",
+    "items": [
+      {
+        "id": "goldflash",
+        "icon": "trophy",
+        "tag": "Gold traders",
+        "value": "$300",
+        "title": "GoldFlash",
+        "body": "Get a $300 cash bonus for every $1,000 you deposit, after trading the required gold (XAUUSD) lots within 30 days."
+      },
+      {
+        "id": "bonus",
+        "icon": "coins",
+        "tag": "Deposit bonus",
+        "value": "20%",
+        "title": "20% Tradable Bonus",
+        "body": "Up to 20% extra on your deposit, capped at $2,000 per client, to trade with more margin."
+      },
+      {
+        "id": "freeswap",
+        "icon": "moon",
+        "tag": "Swap-free",
+        "value": "$0",
+        "title": "Free Swap",
+        "body": "Hold positions overnight with no swap fees — from 1 month up to lifetime, depending on your deposit."
+      }
+    ]
   }
 }

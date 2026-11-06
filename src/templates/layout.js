@@ -1,5 +1,8 @@
 import { header } from './partials/header.js';
 import { footer } from './partials/footer.js';
+import { promoStrip } from './components.js';
+
+const NO_PROMO_STRIP = ['promotions', 'partner-area'];
 
 const FONTS = {
   en: 'family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700',
@@ -45,6 +48,7 @@ export function layout({ ctx, title, body, scripts = [], noindex = false }) {
   ${header(ctx)}
   <main id="main">
 ${body}
+${NO_PROMO_STRIP.includes(page) ? '' : promoStrip(ctx)}
   </main>
   ${footer(ctx)}
   <script src="${ctx.asset('js/main.js')}" defer></script>${scripts.map((s) => `\n  <script src="${ctx.asset(s)}" defer></script>`).join('')}
