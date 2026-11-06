@@ -24,14 +24,17 @@ export function renderScheme(s, version) {
 
   ${block(`<h3>${s.payout.title}</h3>${noteList(s.payout.items)}`, true)}
 
-  ${block(`<h3>${s.nd.title}</h3><p class="ib-formula">${s.nd.formula}</p>${noteList(s.nd.items)}
-    <ul class="ib-calc">${s.nd.examples.map((e) => `<li dir="ltr">${e}</li>`).join('')}</ul>`)}
+  ${block(`<h3>${s.mib.title}</h3><p>${s.mib.lead}</p>${dataTable(s.mib.cols, s.mib.rows, { highlightLast: true })}${noteList(s.mib.rules)}
+    <aside class="ib-definition">
+      <h4>${s.nd.title}</h4>
+      <p class="ib-formula">${s.nd.formula}</p>
+      ${noteList(s.nd.items)}
+      <ul class="ib-calc">${s.nd.examples.map((e) => `<li dir="ltr">${e}</li>`).join('')}</ul>
+    </aside>`)}
 
-  ${block(`<h3>${s.mib.title}</h3><p>${s.mib.lead}</p>${dataTable(s.mib.cols, s.mib.rows, { highlightLast: true })}${noteList(s.mib.rules)}`, true)}
+  ${block(`<h3>${s.extra.title}</h3><p>${s.extra.body}</p>`, true)}
 
-  ${block(`<h3>${s.extra.title}</h3><p>${s.extra.body}</p>`)}
-
-  ${block(`<h3>${s.tools.title}</h3>${noteList(s.tools.items)}`, true)}
+  ${block(`<h3>${s.tools.title}</h3>${noteList(s.tools.items)}`)}
 
   <p class="risk ib-legal">${s.legal}</p>`;
 }
