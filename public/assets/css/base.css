@@ -35,6 +35,8 @@ h3 { font-size: var(--fs-lg); }
 .icon-play { fill: currentColor; stroke: none; }
 [dir='rtl'] .icon-arrow { transform: scaleX(-1); }
 
+[hidden] { display: none !important; }
+
 .sr-only {
   position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap;

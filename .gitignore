@@ -4,3 +4,6 @@ _brand/
 *.xlsx
 .DS_Store
 Thumbs.db
+
+# Private partner content (plaintext) — never commit; only src/encrypted/* goes to GitHub
+private/

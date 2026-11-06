@@ -14,7 +14,7 @@
 .btn-primary:hover { background: var(--yellow-300); }
 .btn-outline { border-color: var(--yellow-500); color: var(--yellow-300); }
 .btn-outline:hover { background: rgb(255 196 0 / 0.12); }
-.btn-ghost { border-color: var(--ink-600); }
+.btn-ghost { border-color: var(--ink-600); background: transparent; color: var(--text); }
 .btn-ghost:hover { border-color: var(--text-muted); }
 .btn-dark { background: var(--ink-900); color: var(--yellow-300); }
 .btn-telegram { background: var(--telegram); color: #fff; }

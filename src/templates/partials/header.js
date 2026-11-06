@@ -58,6 +58,7 @@ export function header(ctx) {
           ).join('')}
         </ul>
         <div class="main-nav__actions">
+          <a class="btn btn-ghost btn-partner" href="${ctx.href('partner-area')}"${page === 'partner-area' ? ' aria-current="page"' : ''}>${icon('shield')}${t.nav.partnerArea}</a>
           <a class="btn btn-ghost" href="${config.links.clientArea}" target="_blank" rel="noopener">${t.nav.login}</a>
           <a class="btn btn-primary" href="${config.links.openAccount}" target="_blank" rel="noopener">${t.nav.openAccount}</a>
         </div>

@@ -8,7 +8,7 @@ const FONTS = {
 };
 
 /** Full HTML document shell shared by every page and language. */
-export function layout({ ctx, title, body }) {
+export function layout({ ctx, title, body, scripts = [], noindex = false }) {
   const { t, lang, page, config } = ctx;
   const pageTitle = page === 'index' ? `${t.meta.siteName} — ${t.nav.index}` : `${title} — ${t.meta.siteName}`;
   const alternates = config.languages
@@ -22,7 +22,7 @@ export function layout({ ctx, title, body }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${pageTitle}</title>
   <meta name="description" content="${t.meta.description}">
-  <meta name="theme-color" content="#0a0a0a">
+  <meta name="theme-color" content="#0a0a0a">${noindex ? '\n  <meta name="robots" content="noindex, nofollow">' : ''}
   <meta property="og:title" content="${pageTitle}">
   <meta property="og:description" content="${t.meta.description}">
   <meta property="og:image" content="${config.siteUrl}/assets/img/og-cover.png">
@@ -47,7 +47,7 @@ export function layout({ ctx, title, body }) {
 ${body}
   </main>
   ${footer(ctx)}
-  <script src="${ctx.asset('js/main.js')}" defer></script>
+  <script src="${ctx.asset('js/main.js')}" defer></script>${scripts.map((s) => `\n  <script src="${ctx.asset(s)}" defer></script>`).join('')}
 </body>
 </html>
 `;

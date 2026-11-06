@@ -40,7 +40,7 @@ for (const lang of config.languages) {
       asset: (p) => `../assets/${p}`,
       altLang: (l) => `../${l}/${page}.html`,
     };
-    const html = layout({ ctx, title: tpl.title(t), body: tpl.render(ctx) });
+    const html = layout({ ctx, title: tpl.title(t), body: tpl.render(ctx), scripts: tpl.scripts, noindex: tpl.noindex });
     writeFileSync(join(DIST, lang, `${page}.html`), html);
     count++;
   }
@@ -69,9 +69,9 @@ ${languages.map((l) => `<a style="color:#ffc400;margin:0 1rem" href="${l.code}/i
 // Hosting files: custom domain (GitHub Pages), robots, sitemap.
 writeFileSync(join(DIST, 'CNAME'), `${config.domain}\n`);
 writeFileSync(join(DIST, '.nojekyll'), '');
-writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${config.siteUrl}/sitemap.xml\n`);
+writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /*/partner-area.html\nSitemap: ${config.siteUrl}/sitemap.xml\n`);
 const urls = config.languages.flatMap((l) =>
-  config.pages.map((p) => {
+  config.pages.filter((p) => p !== 'partner-area').map((p) => {
     const alts = config.languages
       .map((a) => `    <xhtml:link rel="alternate" hreflang="${a}" href="${config.siteUrl}/${a}/${p}.html"/>`)
       .join('\n');

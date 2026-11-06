@@ -117,3 +117,36 @@
   .hero__mark { inline-size: min(160px, 45%); }
   .hero__mascot { inline-size: min(260px, 70%); }
 }
+
+/* ---------- Partner Area (login-gated IB scheme) ---------- */
+.btn-partner { border-color: rgb(255 196 0 / 0.5); color: var(--yellow-300); }
+.btn-partner[aria-current='page'] { background: rgb(255 196 0 / 0.12); }
+.login-card { display: grid; gap: var(--space-4); max-inline-size: 460px; margin-inline: auto; padding: var(--space-8); }
+.login-card .icon-badge { margin: 0; }
+.login-card h2 { font-size: var(--fs-xl); }
+.partner-bar { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: var(--space-3); margin-block-end: var(--space-6); }
+.ib-head { margin-block-end: var(--space-8); }
+.ib-head h2 { font-size: var(--fs-xl); margin-block: var(--space-3) var(--space-2); }
+.ib-block { padding: var(--space-8); border: 1px solid var(--ink-600); border-radius: var(--radius); background: var(--ink-800); margin-block-end: var(--space-6); }
+.ib-block--alt { background: var(--ink-950); }
+.ib-block h3 { font-size: 1.3rem; color: var(--yellow-300); margin-block-end: var(--space-3); }
+.ib-block > p { color: var(--text-muted); margin-block-end: var(--space-4); }
+.ib-label { font-weight: 700; color: var(--text) !important; margin-block-end: var(--space-2) !important; }
+.ib-flow { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); counter-reset: none; }
+.ib-flow li { display: grid; gap: 4px; padding: var(--space-4); border-radius: var(--radius-sm); background: var(--ink-700); border: 1px solid var(--ink-600); text-align: center; }
+.ib-flow li:nth-child(4) { border-color: var(--yellow-500); background: rgb(255 196 0 / 0.1); }
+.ib-flow b { font-family: var(--font-latin); font-size: 1.35rem; color: var(--yellow-300); }
+.ib-flow span { font-size: var(--fs-sm); color: var(--text-muted); }
+.ib-levels { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-block-end: var(--space-4); }
+.ib-example { padding: var(--space-4); border-inline-start: 3px solid var(--yellow-500); background: var(--ink-700); border-radius: var(--radius-sm); color: var(--text) !important; }
+.ib-formula { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; color: var(--ink-900) !important; background: var(--yellow-gradient); padding: var(--space-4) var(--space-6); border-radius: var(--radius-sm); }
+.ib-calc { display: grid; gap: var(--space-2); margin-block-start: var(--space-4); }
+.ib-calc li { font-family: var(--font-latin); font-size: var(--fs-sm); padding: var(--space-3) var(--space-4); background: var(--ink-700); border-radius: var(--radius-sm); text-align: start; }
+.ib-block .table-wrap { margin-block-end: var(--space-4); }
+.ib-legal { margin-block-start: var(--space-6); }
+@media print {
+  .topbar, .utility, .site-header, .site-footer, .page-hero, .partner-bar, .skip-link { display: none !important; }
+  body { background: #fff; color: #000; }
+  .ib-block { break-inside: avoid; }
+}
+.ib-block .data-table th, .ib-block .data-table td { white-space: normal; min-inline-size: 7rem; }

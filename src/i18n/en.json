@@ -33,7 +33,9 @@
     "activities": "Updates",
     "login": "Client area",
     "openAccount": "Open account",
-    "brochure": "Brochure"
+    "brochure": "Brochure",
+    "partner-area": "Partner login",
+    "partnerArea": "Partner login"
   },
   "hero": {
     "eyebrow": "WeGolden · Middle East & North Africa",
@@ -659,6 +661,20 @@
       "open": "Open full screen",
       "editionNote": "",
       "hint": "Use the arrows or swipe to turn pages."
+    },
+    "partnerArea": {
+      "title": "Partner Area",
+      "lead": "Detailed IB and Master IB terms for registered WeGolden partners.",
+      "loginTitle": "Partner login",
+      "loginNote": "Enter the partner ID and password provided by your partner manager.",
+      "id": "Partner ID",
+      "password": "Password",
+      "submit": "Sign in",
+      "loading": "Checking…",
+      "error": "Incorrect ID or password.",
+      "help": "No access yet? Contact",
+      "logout": "Sign out",
+      "print": "Print / save PDF"
     }
   }
 }

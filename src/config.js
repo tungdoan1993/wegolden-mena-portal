@@ -41,5 +41,5 @@ export const config = {
   // HubSpot: https://api.hsforms.com/submissions/v3/integration/submit/<portalId>/<formGuid>
   leadFormEndpoint: '',
 
-  pages: ['index', 'guides', 'promotions', 'partners', 'brochure', 'about', 'activities'],
+  pages: ['index', 'guides', 'promotions', 'partners', 'brochure', 'about', 'activities', 'partner-area'],
 };
