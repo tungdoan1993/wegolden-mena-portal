@@ -343,7 +343,7 @@ table.lev caption{text-align:left;font-weight:700;font-size:.92em;padding-bottom
               <tr class="neg"><td>Above $200,000</td><td style="font-family:var(--f-body);font-size:.88em;color:var(--on-dark-mute)">Negotiated</td></tr>
             </tbody>
           </table>
-          <p class="small">Net deposit for this table = total deposits − withdrawals, calculated per calendar month.</p>
+          <p class="small">Net deposit = Deposits − Withdrawals − MIB Commission, calculated per calendar month across your network.</p>
           <div class="foot"><span>Reward for MIBs</span><span class="num">07</span></div>
         </div>
       </section>
@@ -357,7 +357,7 @@ table.lev caption{text-align:left;font-weight:700;font-size:.92em;padding-bottom
             <div class="pct">2%</div>
             <div><h3>Net $5,000 to $19,999</h3><p class="small">No thresholds to meet. From $20,000 the table on the previous page applies.</p></div>
           </div>
-          <div class="formula">Net for the 2% band = Deposit − Withdrawal − Commission</div>
+          <div class="formula">The same Net Deposit formula applies to the 2% band.</div>
           <h3>Programme rules</h3>
           <ul class="ticks">
             <li>Rewards are calculated monthly.</li>
@@ -544,9 +544,12 @@ table.lev caption{text-align:left;font-weight:700;font-size:.92em;padding-bottom
   document.addEventListener('keydown',function(e){
     if(e.key==='ArrowRight'){pf.flipNext()} else if(e.key==='ArrowLeft'){pf.flipPrev()}
   });
+  ['mousedown','touchstart','pointerdown','mouseup','touchend','pointerup'].forEach(function(t){
+    book.addEventListener(t,function(e){if(e.target.closest('[data-go]'))e.stopPropagation();},true);
+  });
   book.addEventListener('click',function(e){
     var b=e.target.closest('[data-go]');if(!b)return;
-    e.stopPropagation();pf.flip(parseInt(b.getAttribute('data-go'),10));
+    e.stopPropagation();pf.turnToPage(parseInt(b.getAttribute('data-go'),10));update(pf.getCurrentPageIndex());
   },true);
 })();
 </script>
