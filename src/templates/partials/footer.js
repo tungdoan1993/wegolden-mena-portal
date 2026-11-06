@@ -1,7 +1,7 @@
 import { icon } from '../components.js';
 import { brand } from './header.js';
 
-const QUICK = ['index', 'guides', 'promotions', 'partners', 'brochure', 'about', 'activities', 'partner-area'];
+const QUICK = ['index', 'guides', 'promotions', 'partners', 'about', 'activities', 'partner-area'];
 
 export function footer(ctx) {
   const { t, config } = ctx;

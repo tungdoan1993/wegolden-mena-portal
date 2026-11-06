@@ -1,6 +1,6 @@
 import { icon } from '../components.js';
 
-const NAV = ['index', 'guides', 'promotions', 'partners', 'brochure', 'about', 'activities'];
+const NAV = ['index', 'guides', 'promotions', 'partners', 'about', 'activities'];
 
 export function brand(ctx) {
   return `

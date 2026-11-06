@@ -176,3 +176,10 @@
 .promo-detail__card .note-list { margin-block: var(--space-2); }
 .promo-detail__card .btn { justify-self: start; }
 #freeswap, #savings, #league { scroll-margin-block-start: 110px; }
+
+/* Partners page: confidential-levels callout */
+.locked-card { display: flex; flex-wrap: wrap; gap: var(--space-6); align-items: flex-start; padding: var(--space-8); border-color: rgb(255 196 0 / 0.4); }
+.locked-card > div { flex: 1 1 300px; }
+.locked-card .icon-badge { margin: 0; }
+.locked-card h2 { font-size: var(--fs-xl); margin-block-end: var(--space-2); }
+.locked-card .btn-row { margin-block-start: var(--space-6); }

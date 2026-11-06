@@ -239,8 +239,8 @@
         "label": "from your Sub-IBs and their Sub-IBs"
       },
       {
-        "value": "$10,000",
-        "label": "top monthly Master IB reward"
+        "value": "Cash",
+        "label": "monthly reward on Net Deposit"
       },
       {
         "value": "Daily",
@@ -258,7 +258,7 @@
         "tag": "Coming soon",
         "icon": "trophy",
         "title": "WeGolden Partners League — Season 1",
-        "body": "A four-month league for IB partners with an $8,100 prize pool. Season dates will be announced."
+        "body": "A four-month league for IB partners with weekly, monthly and season cash prizes. Season dates will be announced."
       },
       {
         "tag": "New",
@@ -501,7 +501,7 @@
       ],
       "savingsNote": "Withdrawing before the end of the term carries a penalty. Full terms are in the client area.",
       "leagueTitle": "Partners League — Season 1",
-      "leagueBody": "A four-month competition for IB partners with an $8,100 prize pool. Season dates and rules will be announced on our Telegram channel.",
+      "leagueBody": "A four-month competition for IB partners with weekly, monthly and season cash prizes. Season dates and rules will be announced on our Telegram channel.",
       "goldTitle": "GoldFlash — $300 for gold traders",
       "goldLead": "A cash bonus for depositing and trading gold. Enrolment is automatic.",
       "goldPoints": [
@@ -524,91 +524,14 @@
     },
     "partners": {
       "title": "Partner program",
-      "lead": "Earn per-lot rebates, multi-level overrides and monthly rewards for growing your network.",
-      "rebateTitle": "Per-lot rebates",
-      "rebateLead": "Paid automatically on every lot your clients trade, withdrawable daily.",
-      "rebateCols": [
-        "Client account",
-        "Your rebate per lot"
-      ],
-      "rebateRows": [
-        [
-          "Standard High Spread",
-          "$16"
-        ],
-        [
-          "Standard Low Spread",
-          "$8"
-        ],
-        [
-          "ECN",
-          "Ask your partner manager"
-        ]
-      ],
-      "levelsTitle": "Multi-level earnings",
-      "levels": [
-        {
-          "value": "10%",
-          "label": "of your direct Sub-IBs' income"
-        },
-        {
-          "value": "1%",
-          "label": "of your Sub-Sub-IBs' income"
-        }
-      ],
-      "mibTitle": "Master IB monthly reward",
-      "mibLead": "Based on your network's monthly net deposit (deposits − withdrawals − MIB commission).",
-      "mibCols": [
-        "Monthly net deposit",
-        "Reward"
-      ],
-      "mibRows": [
-        [
-          "$20,000",
-          "$500"
-        ],
-        [
-          "$30,000",
-          "$1,000"
-        ],
-        [
-          "$50,000",
-          "$2,500"
-        ],
-        [
-          "$75,000",
-          "$3,500"
-        ],
-        [
-          "$100,000",
-          "$5,000"
-        ],
-        [
-          "$125,000",
-          "$6,250"
-        ],
-        [
-          "$150,000",
-          "$7,500"
-        ],
-        [
-          "$175,000",
-          "$8,750"
-        ],
-        [
-          "$200,000",
-          "$10,000"
-        ],
-        [
-          "Above $200,000",
-          "Negotiated"
-        ]
-      ],
-      "mibNote": "Between $5,000 and $19,999: 2% of net deposit. One reward level per calendar month.",
-      "condTitle": "Reward withdrawal condition",
-      "condBody": "To withdraw IB rewards, refer at least 2 new clients who are fully verified, deposit at least $500 and trade at least 1 standard lot each. Clients transferred from other IBs do not count.",
-      "legal": "This page summarises the program. The WeGolden IB Agreement and official program terms prevail.",
-      "brochureCta": "View the partner brochure"
+      "lead": "Flip through the WeGolden partner catalogue: how you earn, how the network pays, and how to join.",
+      "hint": "Use the arrows or swipe to turn pages.",
+      "open": "Open full screen",
+      "lockedTitle": "Detailed reward levels",
+      "lockedBody": "Master IB reward levels, cash prizes and full conditions are confidential. Registered partners see them in the Partner Area.",
+      "loginCta": "Partner login",
+      "requestCta": "Request access",
+      "legal": "The brochure summarises the program. The WeGolden IB Agreement and official program terms prevail."
     },
     "about": {
       "title": "Licences & offices",

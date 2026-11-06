@@ -206,5 +206,19 @@
  "_aria_prev": "الصفحة السابقة",
  "_aria_next": "الصفحة التالية",
  "Net deposit = Deposits − Withdrawals − MIB Commission, calculated per calendar month across your network.": "صافي الإيداع = الإيداعات − السحوبات − عمولة MIB، ويُحتسب لكل شهر ميلادي لجميع عملاء شبكتك.",
- "The same Net Deposit formula applies to the 2% band.": "صيغة صافي الإيداع نفسها تُطبَّق على شريحة 2%."
+ "The same Net Deposit formula applies to the 2% band.": "صيغة صافي الإيداع نفسها تُطبَّق على شريحة 2%.",
+ "cash on net deposit": "نقداً على صافي الإيداع",
+ "A monthly cash reward on your network's net deposit. Reward levels are shared with registered partners.": "مكافأة نقدية شهرية على صافي إيداع شبكتك. تُشارَك مستويات المكافأة مع الشركاء المسجّلين.",
+ "Your whole network counts: your own clients and your Sub-IBs' clients.": "تُحتسب شبكتك كاملة: عملاؤك وعملاء وسطائك الفرعيين.",
+ "Reach a monthly net deposit level to unlock a cash reward.": "بلوغ مستوى معيّن من صافي الإيداع الشهري يفتح لك مكافأة نقدية.",
+ "The bigger your network's net deposit, the higher the reward.": "كلما زاد صافي إيداع شبكتك، ارتفعت المكافأة.",
+ "Paid in cash after each calendar month.": "تُدفع نقداً بعد نهاية كل شهر ميلادي.",
+ "Reward levels are confidential. Registered partners see the full table in the Partner Area.": "مستويات المكافأة سرية. يطّلع الشركاء المسجّلون على الجدول الكامل في منطقة الشركاء.",
+ "From your first month": "من شهرك الأول",
+ "No minimum to start. Growing networks already earn a cash reward.": "لا حد أدنى للبدء. الشبكات الناشئة تربح مكافأة نقدية أيضاً.",
+ "The same Net Deposit formula applies at every reward level.": "صيغة صافي الإيداع نفسها تُطبَّق على جميع مستويات المكافأة.",
+ "Top-level rewards are agreed individually with the partnership team.": "يُتفق على مكافآت المستويات العليا بشكل فردي مع فريق الشراكات.",
+ "Cash": "نقداً",
+ "prizes every week, month and season": "جوائز كل أسبوع وشهر وموسم",
+ "Top 3": "أفضل 3"
 }
