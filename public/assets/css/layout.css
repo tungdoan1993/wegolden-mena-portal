@@ -23,6 +23,7 @@
 }
 
 .split { display: grid; gap: var(--space-12); align-items: center; }
+.split > *, .grid > * { min-inline-size: 0; } /* let wide tables scroll inside instead of stretching the page */
 @media (min-width: 900px) {
   .split { grid-template-columns: 1fr 1fr; }
   .split--art { grid-template-columns: 0.8fr 1.2fr; }
