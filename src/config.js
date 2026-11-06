@@ -4,8 +4,8 @@
  * Items marked TODO need the real value before going live.
  */
 export const config = {
-  domain: 'mena.wegolden.com',
-  siteUrl: 'https://mena.wegolden.com',
+  domain: 'wegoldenpartners.com',
+  siteUrl: 'https://wegoldenpartners.com',
   languages: ['en', 'ar', 'fa'],
   defaultLanguage: 'en',
 

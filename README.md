@@ -1,4 +1,4 @@
-# WeGolden MENA Portal — mena.wegolden.com
+# WeGolden MENA Portal — wegoldenpartners.com
 
 Multilingual portal (English · العربية · فارسی) for WeGolden in the Middle East & North Africa.
 Static site, zero dependencies — Node 18+ only.
@@ -43,5 +43,5 @@ RTL: Arabic and Farsi set `dir="rtl"`; CSS uses logical properties, so there is 
 
 ## Custom domain
 `dist/CNAME` is generated from `config.domain`. DNS (Cloudflare, zone wegolden.com):
-`CNAME  mena  →  <github-user>.github.io` (DNS only until the GitHub certificate is issued), then
-GitHub → Settings → Pages → Custom domain `mena.wegolden.com` → Enforce HTTPS.
+4 A records → GitHub Pages IPs + `CNAME www → tungdoan1993.github.io` (DNS only until the GitHub certificate is issued), then
+GitHub → Settings → Pages → Custom domain `wegoldenpartners.com` → Enforce HTTPS.
