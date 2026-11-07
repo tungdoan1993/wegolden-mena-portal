@@ -2,11 +2,13 @@
   "name": "wegolden-mena-portal",
   "version": "1.0.0",
   "private": true,
-  "description": "WeGolden MENA multilingual portal (English, Arabic, Farsi) — static site, zero dependencies.",
+  "description": "WeGolden MENA multilingual portal (English, Arabic, Farsi) \u2014 static site, zero dependencies.",
   "type": "module",
   "scripts": {
     "build": "node build.js",
-    "serve": "node build.js && npx --yes serve dist"
+    "serve": "node build.js && npx --yes serve dist",
+    "check": "node tools/site-check.mjs",
+    "check:local": "node build.js && node tools/site-check.mjs --base http://localhost:8765"
   },
   "engines": {
     "node": ">=18"

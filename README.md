@@ -41,6 +41,11 @@ wegolden-portal/
 
 RTL: Arabic and Farsi set `dir="rtl"`; CSS uses logical properties, so there is no separate RTL stylesheet.
 
+## Health check
+`npm run check` tests the live site: speed (first byte, LCP, load), JS errors, failed requests, broken images and links,
+horizontal overflow at 360–1920 px, header fit, flipbooks, Partner Area lock, and confidential reward figures on public pages.
+Thresholds: `tools/site-check.config.json`. Exit code 1 = at least one FAIL. A scheduled Claude task runs it every 2 days.
+
 ## Custom domain
 `dist/CNAME` is generated from `config.domain`. DNS (Cloudflare, zone wegolden.com):
 4 A records → GitHub Pages IPs + `CNAME www → tungdoan1993.github.io` (DNS only until the GitHub certificate is issued), then
